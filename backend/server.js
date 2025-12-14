@@ -9,7 +9,14 @@ const sweetRoutes = require('./routes/sweets');
 const app = express();
 
 // Middleware
-app.use(cors());
+const corsOptions = {
+  origin: [
+    'http://localhost:3000',
+    'https://sweet-shop-1bd8.onrender.com'
+  ],
+  credentials: true
+};
+app.use(cors(corsOptions));
 app.use(express.json());
 
 // Routes
