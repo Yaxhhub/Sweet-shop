@@ -1,4 +1,8 @@
 # Sweet Shop Management System
+Access here->>
+
+https://sweet-shop-1bd8.onrender.com/
+
 
 A full-stack application for managing a sweet shop with user authentication, inventory management, and purchase functionality.
 
